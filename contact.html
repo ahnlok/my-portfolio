@@ -17,12 +17,44 @@
                 font-family: 'DM Serif Display', serif;
             }
              /* Added style to navbar-brand */
+            .container {
+                padding: 0;
+                margin: 0;
+            }
+            .display-4 {
+                margin: 0px;
+                font-weight: bold;
+                color: #4faca5;
+                font-family: 'DM Serif Display', serif;
+            }
+            .form-control {
+                border-radius: 0px;
+            }
+            /* Do not remove border-radius, need help*/
+            #button {
+                border-radius: 0px;
+                background: #4faca5;
+            }
+            /* Removed roudness and background color on button */
+            #footer2 {
+               background: black;
+               text-align: center;
+               width: 100%;
+               height: 65px;
+               color: gray;
+            }
+            .lp{
+                margin-top: 16px;
+            }
         </style>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+        <!-- Added Google Font -->
         <link rel="stylesheet" href="">
     </head>
     <body>
@@ -54,37 +86,47 @@
                      <!-- Removed "Search" button -->
                 </div>
         </nav>
+        <br></br>
+        <br></br>
+        <!-- added <br> to give space inbetween navbar and form-->
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Contact</h1>
-        <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Ma,e</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Example select</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-          </form>
-            <div class="container">
+            <div class="card" style="width: 50rem padding: 10px;">
+                <div class="jumbotron bg-white text-dark">
+                <!-- Added jumbotron -->
                 <div class="row">
                     <div class="col">
-                        <h1>Contact</h1>
+                    <h1 class="display-4">Contact</h1>
+                    <hr>
                     </div>
                 </div>
-            </div>
-            </body>
-        </html> 
+                    <div class="row">
+                    <form>
+                    <!-- Added form codes from Bootstrap -->
+                        <div class="form-group w-100">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="name" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <!-- Added anther form-group -->
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+                        <!-- Added placeholder="Message" -->
+                        </div>
+                            <input id="button" class="btn btn-primary" type="submit" value="Submit">
+                        <!-- Added Submit Button-->
+                    </form>     
+                </div>   
+            </div>  
+        </div>
+        <footer id="footer2" class="footer fixed-bottom">
+        <!-- Added footer-->
+            <div class="row"></div>
+            <p class="lp">&copy; Copyright</p>
+        </footer>                  
+    </body>
+</html> 
   
