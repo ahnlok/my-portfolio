@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>About Me Website</title>
@@ -10,6 +10,9 @@
                 width: 100%;
             }
         /* Added background image with ignasi_pattern_s.png */
+            html {
+                padding-bottom: greater than your footer;
+            }
             .navbar-brand{
                 padding: 10px 0px 10px 0px;
                 background-color: #4faca5;
@@ -17,12 +20,32 @@
                 font-family: 'DM Serif Display', serif;
             }
             /* Added style to navbar-brand */
-            .header {
-                margin-top: 100px;
+            .display-4 {
+                margin: 0px;
                 font-weight: bold;
                 color: #4faca5;
                 font-family: 'DM Serif Display', serif;
             }
+
+            .lead .follow up {
+                font-family: 'DM Serif Display', serif; 
+            }
+            #footer1{
+                width: 100%;
+                height: 2px;
+                background-color: #4faca5;
+            }
+            #footer2 {
+               background: black;
+               text-align: center;
+               width: 100%;
+               height: 65px;
+               color: gray;
+            }
+            .lp{
+                margin-top: 16px;
+            }
+           
         /* Added style to header */
         </style>
 
@@ -36,8 +59,8 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         
-    </head>
-    <body>
+</head>
+<body>
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand text-white" href="./index.html">Sungpil An</a>
             <!-- Added text-white to change font color -->
@@ -66,15 +89,40 @@
             </div>
             <!-- Removed "Search" button -->
         </nav>
-
+        <br></br>
+        <br></br>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="header">About Me</h1>
-                    <hr>
-                    <p>My name is Sungpil An. I graduated from the University of Kansas with Journalsim degree. I have worked in the hospitality industry past four years from working in the BoH as a line cook and chef, and as a social media associate for the largest Japanese restaurant group in NYC. I can speak both English and Korean.</p>
+            <div class="card" style="width: 50rem;">
+                <div class="jumbotron bg-white text-dark">
+            <!-- Added Jumbotron and bg-dark text-white to make it white -->
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="display-4">About Me</h1>
+                            <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="./Images/food.jpg" alt="food" class="img-thumbnail">
+                            <!-- Added an image thumbnail -->
+                        </div>
+                        <div class="col-sm-9">
+                            <!-- This is first paragraph -->
+                            <p class="font-weight-normal"> My name is Sungpil An. I graduated from the University of Kansas with Journalsim degree. I have worked in the hospitality industry past four years from working in the BoH as a line cook and chef, and as a social media associate for the largest Japanese restaurant group in NYC. I can speak both English and Korean.</p>
+                            <!-- Changed font-weight to normal -->
+                        </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- This is second paragraph -->
+                            <p class="font-weight-normal"> After four years working in the hospitality industry in NYC, I am pursuing my new dream to become a full-stack developer. With the Georgia Tech Bootcamp, I feel like I made the right career change choice!
+                            </p>
+                       <!-- Changed font-weight to normal -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+    <footer id="footer2" class="footer fixed-bottom">
+        <p class="lp">&copy; Copyright</p>
+    </footer>
+    <!-- Footer added -->
+</body>
 </html>
