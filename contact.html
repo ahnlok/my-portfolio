@@ -17,9 +17,10 @@
                 font-family: 'DM Serif Display', serif;
             }
              /* Added style to navbar-brand */
-            .container {
-                padding: 0;
-                margin: 0;
+            .card {
+                height: 100px;
+               width: 60%;
+              
             }
             .display-4 {
                 margin: 0px;
@@ -27,6 +28,7 @@
                 color: #4faca5;
                 font-family: 'DM Serif Display', serif;
             }
+            
             .form-control {
                 border-radius: 0px;
             }
@@ -34,9 +36,15 @@
             #button {
                 border-radius: 0px;
                 background: #4faca5;
+                padding: 15px 32px;
+                font-size: 20px;
+                font-weight: 400;
             }
             /* Removed roudness and background color on button */
-            #footer2 {
+            .footer {
+                background: #4faca5;
+            }
+            .footer2 {
                background: #666666;
                text-align: center;
                width: 100%;
@@ -70,7 +78,6 @@
                     aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                     <!-- Changed mr-auto to ml-auto to give space between Navbar and other selectors-->
@@ -90,7 +97,7 @@
         <br></br>
         <!-- added <br> to give space inbetween navbar and form-->
         <div class="container">
-            <div class="card" style="width: 30em padding: 0px;">
+            <div class="card">
                 <div class="jumbotron bg-white text-dark">
                 <!-- Added jumbotron -->
                 <div class="row">
@@ -103,7 +110,6 @@
                     <form>
                     <!-- Added form codes from Bootstrap -->
                     </div>
-
                 <div class="form">
                     <div class="form-group w-75"> 
                     <!-- Added width size for form -->
@@ -127,7 +133,9 @@
                 </div>   
             </div>  
         </div>
-        <footer id="footer2" class="footer fixed-bottom">
+        <footer class="footer fixted-bottom">
+        </footer>
+        <footer class="footer2 fixed-bottom">
         <!-- Added footer-->
             <div class="row"></div>
             <p class="lp">&copy; Copyright</p>
