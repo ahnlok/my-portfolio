@@ -17,7 +17,12 @@
                 font-family: 'DM Serif Display', serif;
             }
              /* Added style to navbar-brand */
-             .display-4 {
+            .card {
+                width: 815px;
+                margin-bottom: 100px;
+            }
+            /* Add size to card */
+            .display-4 {
                 margin: 0px;
                 font-weight: bold;
                 color: #4faca5;
@@ -30,7 +35,7 @@
                 padding: 10px;
                 margin: 10px;
             }
-            <!-- Added styles for each immages -->
+           /* Added styles for each immages */
             .footer {
                 background: #4faca5;
             }
@@ -44,12 +49,21 @@
             .lp{
                 margin-top: 16px;
             }
+
+            @media screen and (max-width: 768px) {
+                .card {
+                    width: 100%;
+                    padding: 20px;
+                }
+            /* Added @media screen to readjust the size upon scaling of webpage */
+        
         </style>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <!-- Javaquery link -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
         <!-- Added Google Font -->
@@ -93,14 +107,15 @@
             <div class="card">
                 <div class="jumbotron bg-white text-dark">
                 <!-- Added jumbotron -->
-                <div class="row">
+                <div class="row"> 
+                <!-- Five images for the portfolio.html -->
                     <div class="col">
                     <h1 class="display-4">Portfolio</h1>
                     <hr>
                 <div class="row">
                     <div class="col">
-                    <img src="./Images/three.jpg" class="friends" alt="withfriends">
-                    <img src="./Images/background.jpg" class="background" alt="backgroundpicture">
+                        <img src="./Images/three.jpg" class="friends" alt="withfriends">
+                        <img src="./Images/background.jpg" class="background" alt="backgroundpicture">
                     </div>
                 </div>
                 <div class="row">
@@ -114,10 +129,6 @@
                     <img src="./Images/lic.jpg" class="lic" alt="mysecondhome">
                     </div>
                 </div>
-
-                   
-                </div>
-                </div>
             </div>
         </div>
         <footer class="footer fixted-bottom">
@@ -127,6 +138,6 @@
             <div class="row"></div>
             <p class="lp">&copy; Copyright</p>
             <!-- Added copylight sign and words -->
-        </footer>                  
+        </footer>                
     </body>
 </html>
