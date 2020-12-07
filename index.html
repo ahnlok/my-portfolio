@@ -21,13 +21,22 @@
                 font-family: 'DM Serif Display', serif;
             }
             /* Added style to navbar-brand */
+            .fa {
+                padding: 12px;
+                font-size: 40px;
+                width: 40px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+            }
+            /*Added Social Media Style*/
             .display-4 {
                 margin: 0px;
                 font-weight: bold;
                 color: #4faca5;
                 font-family: 'DM Serif Display', serif;
             }
-
+            /* Added font style and background color to main header */
             .lead .follow up {
                 font-family: 'DM Serif Display', serif; 
             }
@@ -48,32 +57,30 @@
                height: 65px;
                color: gray;
             }
+            /* Footer style */
             .lp{
                 margin-top: 16px;
             }
-            @media screen and (max-width: 768px) {
-                .card {
-                    width: 100%;
-                    padding: 20px;
-                }
-            /* Added @media screen to readjust the size upon scaling of webpage */
-           
-        /* Added style to header */
         </style>
 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css"/>
+        <!-- Bootstrap link -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <!-- JQuery Link-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <!-- JavaScript Link-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
-        // Added Google Font 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <!-- Google Font Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Social Media Icon Link -->
+        <link rel="stylesheet" href="">
         
 </head>
 <body>
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand text-white" href="./index.html">Sungpil An</a>
             <!-- Added text-white to change font color -->
             <button class="navbar-toggler" 
@@ -97,44 +104,50 @@
                 <li class="nav-item">
                   <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
+                <li class="nav-iem">
+                    <a href="https://www.facebook.com/sungpil.an.9" class="fa fa-facebook"></a>
+                <li class="nav-iem">
+                    <a href="https://www.instagram.com/sung_an_/" class="fa fa-instagram"></a>
+                <li class="nav-iem">
+                    <a href="https://www.linkedin.com/in/an-sungpil-95ab8490/" class="fa fa-linkedin"></a>
+                </li>
               </ul>
             </div>
             <!-- Removed "Search" button -->
         </nav>
         <br></br>
         <br></br>
-        <div class="container">
-            <div class="card" style="width: 50rem;">
-                <div class="jumbotron bg-white text-dark">
+    <div class="container">
+        <div class="card" style="width: 50rem;">
+            <div class="jumbotron bg-white text-dark">
             <!-- Added Jumbotron and bg-dark text-white to make it white -->
-                    <div class="row">
-                        <div class="col">
-                            <h1 class="display-4">About Me</h1>
-                            <hr>
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <img src="./Images/food.jpg" alt="food" class="img-thumbnail">
-                            <!-- Added an image thumbnail -->
-                        </div>
-                        <div class="col-sm-9">
-                            <!-- This is first paragraph -->
-                            <p class="font-weight-normal"> My name is Sungpil An. I graduated from the University of Kansas with Journalsim degree. I have worked in the hospitality industry past four years from working in the BoH as a line cook and chef, and as a social media associate for the largest Japanese restaurant group in NYC. I can speak both English and Korean.</p>
-                            <!-- Changed font-weight to normal -->
-                        </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- This is second paragraph -->
-                            <p class="font-weight-normal"> After four years working in the hospitality industry in NYC, I am pursuing my new dream to become a full-stack developer. With the Georgia Tech Bootcamp, I feel like I made the right career change choice!
-                            </p>
-                       <!-- Changed font-weight to normal -->
-                        </div>
+                <div class="row">
+                    <div class="col">
+                        <h1 class="display-4">About Me</h1>
+                        <hr>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="./Images/food.jpg" alt="food" class="img-thumbnail">
+                        <!-- Added an image thumbnail -->
+                    </div>
+                    <div class="col-sm-9">
+                    <!-- This is first paragraph -->
+                    <p class="font-weight-normal"> My name is Sungpil An. I graduated from the University of Kansas with Journalsim degree. I have worked in the hospitality industry past four years from working in the BoH as a line cook and chef, and as a social media associate for the largest Japanese restaurant group in NYC. I can speak both English and Korean.</p>
+                    <!-- Changed font-weight to normal -->
+                    </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- This is second paragraph -->
+                        <p class="font-weight-normal"> After four years working in the hospitality industry in NYC, I am pursuing my new dream to become a full-stack developer. With the Georgia Tech Bootcamp, I feel like I made the right career change choice!
+                        </p>
+                    <!-- Changed font-weight to normal -->
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     <footer id="footer2" class="footer fixed-bottom">
         <div class="row">
-            
         </div>
         <p class="lp">&copy; Copyright</p>
     </footer>
