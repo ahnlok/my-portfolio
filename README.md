@@ -2,40 +2,45 @@
 ---
 
 ## Description 
-This is the website for About Me website using HTML/CSS with Bootstrap.
+This is the website for "About Me" website using HTML/CSS with Bootstrap.
 
 
 ## Table of Contents
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Installation](#installation)
-* [Usage](#usage)
+* [Features](#Features)
 * [Credits](#credits)
 * [License](#license)
 
 
-## Installation
+## Features
+#### Navbar
+![aboutmenavbarimage](./Images/navbar.jpg)
+###### You can use the navbar to navigate the website via clicking each category.
+---
+#### About Me
+![aboutmeimage](./Images/aboutmesung.jpg)
+###### This is a brief introduction about myself.
+---
+#### Contact
+![contactimage](./Images/contactsung.jpg)
+###### This is a page to join the contact list.
+---
+#### Portfolio
+![portfolioimage](./Images/portfoliosung.jpg)
+###### This is my portfolio to visualize the information about me.
+---
+## Contribution
+##### Thank You:
+-All my classmates from the study group, TAs, and the instructor.
+##### Be The Contributor!
+-If you would like to contribute to the open source, here is the the link: <https://github.com/ahnlok/my-portfolio>
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-
-## Usage 
-
-Provide instructions and examples for use. Include screenshots as needed. 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
-```
 
 
 ## Credits
 ##### Sungpil An: <ansungpil1@gmail.com>
 #### URL:
-###### GitPage:
-###### GitHub Repository:
+###### GitPage: <https://ahnlok.github.io/my-portfolio/>
+###### GitHub Repository: <https://github.com/ahnlok/my-portfolio>
 
 
 ## License
@@ -61,19 +66,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
