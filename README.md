@@ -6,35 +6,41 @@ This is the website for "About Me" website using HTML/CSS with Bootstrap.
 
 
 ## Table of Contents
-* [Features](#Features)
+* [Features](#features)
+* [Contribution](#contribution)
 * [Credits](#credits)
 * [License](#license)
 
 
 ## Features
+* [Navbar](#navbar)
+* [About Me](#aboutme)
+* [Contact](#contact)
+* [Portfolio](#portfolio)
+
 #### Navbar
 ![aboutmenavbarimage](./Images/navbar.jpg)
-###### You can use the navbar to navigate the website via clicking each category.
+ - ###### You can use the navbar to navigate the website via clicking each category.
 ---
 #### About Me
 ![aboutmeimage](./Images/aboutmesung.jpg)
-###### This is a brief introduction about myself.
+- ###### This is a brief introduction about myself.
 ---
 #### Contact
 ![contactimage](./Images/contactsung.jpg)
-###### This is a page to join the contact list.
+- ###### This is a page to join the contact list.
 ---
 #### Portfolio
 ![portfolioimage](./Images/portfoliosung.jpg)
-###### This is my portfolio to visualize the information about me.
+- ###### This is my portfolio to visualize the information about me.
 ---
 ## Contribution
 ##### Thank You:
--All my classmates from the study group, TAs, and the instructor.
-##### Be The Contributor!
+-All of my classmates from the study group, TAs, and the instructor from the Georgia Tech Boot Camp.
+##### Be A Contributor!
 -If you would like to contribute to the open source, here is the the link: <https://github.com/ahnlok/my-portfolio>
 
-
+---
 
 ## Credits
 ##### Sungpil An: <ansungpil1@gmail.com>
