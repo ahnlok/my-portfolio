@@ -1,0 +1,56 @@
+body { 
+    background-image: url("./images/ignasi_pattern_s.png"); 
+    width: 100%;
+}
+/* Added background image with ignasi_pattern_s.png */
+html {
+    padding-bottom: greater than your footer;
+}
+/* Added to stablize fixed footer */
+.navbar-brand{
+    padding: 10px 0px 10px 0px;
+    background-color: #4faca5;
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+}
+/* Added style to navbar-brand */
+.fa {
+    padding: 12px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+/*Added Social Media Style*/
+.display-4 {
+    margin: 0px;
+    font-weight: bold;
+    color: #4faca5;
+    font-family: 'DM Serif Display', serif;
+}
+/* Added font style and background color to main header */
+.lead .follow up {
+    font-family: 'DM Serif Display', serif; 
+}
+.nav-item {
+    font-weight: bold;
+    font-family:sans-serif;
+}
+/* Changed font-weight and font-family for .nav-item */
+#footer1{
+    width: 100%;
+    height: 2px;
+    background-color: #4faca5;
+}
+#footer2 {
+   background: #666666;
+   text-align: center;
+   width: 100%;
+   height: 65px;
+   color: gray;
+}
+/* Footer style */
+.lp{
+    margin-top: 16px;
+}
