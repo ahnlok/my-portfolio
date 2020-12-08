@@ -36,7 +36,7 @@
 ---
 ## Contribution
 ##### Thank You:
--All of my classmates from the study group, TAs, and the instructor from the Georgia Tech Boot Camp.
+-All of my classmates from the study group, TAs, tutor and the instructor from the Georgia Tech Boot Camp.
 ##### Be A Contributor!
 -If you would like to contribute to the open source, here is the the link: <https://github.com/ahnlok/my-portfolio>
 
