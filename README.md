@@ -19,20 +19,24 @@
 * [Portfolio](#portfolio)
 
 #### Navbar
-![aboutmenavbarimage](./Images/navbar.jpg)
+![aboutmenavbarimage](./Images/navbarupdated.jpg)
  - ###### You can use the navbar to navigate the website via clicking each category.
+ - ###### (01-02-21), Added GitHub icon.
 ---
 #### About Me
-![aboutmeimage](./Images/aboutmesung.jpg)
+![aboutmeimage](./Images/aboutme.jpg)
 - ###### This is a brief introduction about myself.
+- ###### (01-02-21), Changed background image, profile picture, information, and contact information.
 ---
 #### Contact
 ![contactimage](./Images/contactsung.jpg)
 - ###### This is a page to join the contact list.
+- ###### (01-02-21), Changed background image.
 ---
 #### Portfolio
-![portfolioimage](./Images/portfoliosung.jpg)
+![portfolioimage](./Images/portupdated.jpg)
 - ###### This is my portfolio to visualize the information about me.
+- ###### (01-02-21), Added my GitHub repositories images and links.
 ---
 ## Contribution
 ##### Thank You:
