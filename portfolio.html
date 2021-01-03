@@ -29,8 +29,7 @@
             /*Social Media Icons and Links */
             .card {
                 width: 812px;
-                margin-bottom: 100px;
-                float:  
+                margin-bottom: 100px; 
             }
             /* Add size to card */
             .display-4 {
@@ -44,33 +43,35 @@
                 font-weight: bold;
                 font-family:sans-serif;
             }
-            #container {
+            .container {
                 display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
-            }
-            h2 {
-                text-align: center;
+                justify-content: space-between;
                 width: 100%;
+                margin: 0 auto;
+                padding: 0 auto;
             }
-            #intro {
-                text-align: center;
-
+            
+            /* section {
+                display: inline-flex;
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0;
+                justify-content: space-between;
             }
+             */
             #title-name {
                 position: relative;
-                text-align: center;   
+                text-align: center; 
             }
             /* Font style for navar categories*/
             .quiz, .scheduler, .password, .project {
-                width: 350px;
-                height: 350px;
-                padding: 10px;
-                margin: 5px;
-                border: 1px solid black;
-                text-align: justify; 
-                position: relative;
+                width: 300px;
+                height: 300px;
+                padding: 20px;
+                margin: 40px;
+                border: 2px solid black;
                 display: flex;
+                
             }
            /* Added styles for each immages */
             .footer2 {
@@ -143,41 +144,31 @@
         </nav>
         
         <!-- Added <br> to give space between navbar and main header -->
-        <div class="container my-5" id="container">
-            <div class="jumbotron ml-5 bg-white text-dark">
-                <!-- Added jumbotron -->
+        <section>
+            <div class="container mt-5 mb-5 border bg-white" id="container">
                 <div class="row"> 
-                <!-- Five images for the portfolio.html -->
                     <div class="col-12">
-                    <h1 class="display-4">Portfolio</h1>
+                    <h1 class="display-4">Portfolio (Click Images) </h1>
                     <hr>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <h2 class="font-weight-bold text-center" id="intro">Click Each Image to Redirect to Each Project's Webpage: </h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="text font-weight-bold" id="title-name">Digital Coffee<hr><a href="https://ahnlok.github.io/digital-coffee/">
+                <div class=row>
+                        <div class="text font-weight-bold" id="title-name">1. Digital Coffee<a href="https://ahnlok.github.io/digital-coffee/">
                             <img alt="Project" class="project" src="./Images/digitalcoffee.jpg"> 
                         </a></div>
-                        <div class="text font-weight-bold" id="title-name">Daily Schedule<hr><a href="https://ahnlok.github.io/schedule-hw05/">
+
+                        <div class="text font-weight-bold" id="title-name">2. Daily Schedule<a href="https://ahnlok.github.io/schedule-hw05/">
                             <img alt="Scheduler" class="scheduler" src="./Images/scheduler.jpg"> 
                         </a></div>
-                <div class="row">
-                    <div class="col">
-                        <div class="text font-weight-bold" id="title-name">Code Quiz<hr><a href="https://ahnlok.github.io/code-quiz-homework-04/">
+                    
+                        <div class="text font-weight-bold" id="title-name">3. Code Quiz<a href="https://ahnlok.github.io/code-quiz-homework-04/">
                             <img alt="Quiz" class="quiz" src="./Images/quiz.jpg"> 
                         </a></div>
-                        <div class="text font-weight-bold" id="title-name">Randomly Generated Password<hr><a href="https://ahnlok.github.io/password-generator-hw03/">
+
+                        <!-- <div class="text font-weight-bold" id="title-name">4. Randomly Generated Password<a href="https://ahnlok.github.io/password-generator-hw03/">
                             <img alt="Password" class="password" src="./Images/password.jpg"> 
-                        </a></div>
-                    </div>
+                        </a></div> -->
                 </div>
-            </div>
-        </div>
-        
+        </section>
         <footer class="footer2 fixed-bottom">
         <!-- Added footer-->
             <div class="row"></div>
